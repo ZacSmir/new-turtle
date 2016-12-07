@@ -1,8 +1,8 @@
-function cat(n){
-
-  for (i = 0; i < n; i++){
+function cat(x){
+var n = (180*(x-2))/x
+  for (i = 0; i < x; i++){
     goForward(50)
-turnLeft((180*(n-2))/n)
+turnLeft()
 }
 }
 cat(7)

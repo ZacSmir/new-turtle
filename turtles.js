@@ -3,12 +3,12 @@ var position = {x: 250, y: 250};
 var turtle = $("#turtle");
 var turtleCage = $(".turtle-cage")
 
-function turnRight() {
-  heading = heading + 90  
+function turnRight(n) {
+  heading = heading + n  
 }
 
 function turnLeft(n) {
-  heading = heading - (180*(n-2))/n  
+  heading = heading - n
 }
 
 function goForward(distance) {    
