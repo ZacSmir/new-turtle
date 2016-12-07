@@ -4,5 +4,5 @@ function cat(n){
     goForward(50)
 turnLeft((180*(n-2))/n)
 }
-
+}
 cat(7)
