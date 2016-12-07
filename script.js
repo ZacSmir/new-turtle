@@ -1,4 +1,5 @@
-turnLeft(90)
-goForward(100)
-turnRight(90)
-goForward(100)
+function cat(n){
+goForward(50)
+turnLeft()
+
+}
