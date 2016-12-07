@@ -8,7 +8,7 @@ function turnRight() {
 }
 
 function turnLeft(n) {
-  heading = heading - n  
+  heading = heading - (180*(n-2))/n  
 }
 
 function goForward(distance) {    
