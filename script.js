@@ -1,6 +1,8 @@
 function cat(n){
 
-  while
+  while (i < n, i++)
   goForward(50)
-turnLeft((18*(n-2))/n)
+turnLeft((180*(n-2))/n)
 }
+
+cat(7)
