@@ -15,6 +15,12 @@ cat(n)
 
 
 function star(x){
-for (i=0; i<n)
-  
+for (i=0; i<n; i++){
+goForward(360/n)
+turnLeft(720/n)
+goForward(360/n)
+turnRight(720/n)
+}  
 }
+
+star(6)
