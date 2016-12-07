@@ -8,5 +8,6 @@ turnLeft(360/n)
 }
 
 
-
-cat(33)
+$("#clickdraw").click(function{
+cat(n)
+})
