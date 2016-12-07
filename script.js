@@ -8,6 +8,8 @@ turnLeft(360/n)
 }
 
 
-$("#clickdraw").click=function{
+$("#clickdraw").click(
+  n = $("#draw").val()
 cat(n)
-}
+)
+
