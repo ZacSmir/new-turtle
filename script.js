@@ -1,2 +1,1 @@
-turtle.turnleft(9)
-turtle.forward(87)
+turnLeft(90)
