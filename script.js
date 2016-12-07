@@ -1,5 +1,6 @@
 function cat(n){
-goForward(50)
-turnLeft()
 
+  while
+  goForward(50)
+turnLeft((18*(n-2))/n)
 }
