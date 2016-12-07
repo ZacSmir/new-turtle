@@ -8,8 +8,13 @@ turnLeft(360/n)
 }
 
 
-$("#clickdraw").click(
+$("#clickdraw").click( function() {
   n = $("#draw").val()
 cat(n)
-)
+})
 
+
+function star(x){
+for (i=0; i<n)
+  
+}
