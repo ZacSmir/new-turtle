@@ -28,6 +28,11 @@ turnLeft(90)
 goinvisible(60)
 turnRight(90)
 
+cat(360, 1260)
+turnLeft(90)
+goinvisible(45)
+turnRight(90)
+
 cat(360, 1080)
 turnLeft(90)
 goinvisible(60)
