@@ -40,7 +40,7 @@ turnRight(90)
 
 cat(360, 360)
 turnLeft(90)
-goinvisible(60)
+goinvisible(15)
 turnRight(90)
 
 cat(360,270)
