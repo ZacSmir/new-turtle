@@ -25,7 +25,7 @@ function goForward(distance) {
   turtle.animate({
     left: position.x, 
     bottom: position.y,
-  },{
+  duration: 200},{
     complete : function() {
       insertLine(origPosition, origHeading, distance)
     }
