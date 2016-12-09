@@ -27,24 +27,30 @@ cat(360, 1440)
 turnLeft(90)
 goinvisible(60)
 turnRight(90)
+
 cat(360, 1080)
 turnLeft(90)
 goinvisible(60)
 turnRight(90)
+
 cat(360, 720)
 turnLeft(90)
 goinvisible(60)
 turnRight(90)
+
 cat(360, 360)
 turnLeft(90)
 goinvisible(60)
 turnRight(90)
+
 cat(360,270)
 turnLeft(90)
-goinvisible(30)
+goinvisible(15)
 turnRight(90)
+
 cat(360, 180)
 turnLeft(90)
 goinvisible(15)
 turnRight(90)
+
 cat(360, 90)
