@@ -24,6 +24,6 @@ turnRight(360/n)
 }  
 }
 
-star(6)
+
 
  
