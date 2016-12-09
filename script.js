@@ -24,8 +24,9 @@ cat(n)
 //}  
 //}
 cat(360, 1080)
-turnLeft
-goForward(360)
+turnLeft(90)
+goForward(90)
+turnRight(90)
 cat(360, 720)
 cat(360,360)
 cat(360, 180)
