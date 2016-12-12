@@ -42,7 +42,7 @@
 
 var gameInput = $(document)
 
-
+var x = goForward
 
 
 gameInput.keydown(function(keydownEvent) {
@@ -55,7 +55,7 @@ gameInput.keydown(function(keydownEvent) {
   if (keydownEvent.keyCode == 65) {      
     console.log("down")
     heading = 180
-    goForward(50)
+    x(50)
   }  
   if (keydownEvent.keyCode == 87) {
     heading = 270
@@ -68,9 +68,8 @@ gameInput.keydown(function(keydownEvent) {
     goForward(50)
   }  
   if (keydownEvent.keyCode == 32) {      
-    linEl.css({
-    background: "white"
-    })
+  
+    
   }  
   
 })
