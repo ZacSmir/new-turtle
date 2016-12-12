@@ -40,9 +40,7 @@
 //gameInput.keydown(function(keydownEvent) {
 //  // the key code for enter is 13
 
-var gameInput = $(document)
 
-back = fuc
 
 
 gameInput.keydown(function(keydownEvent) {
