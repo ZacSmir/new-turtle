@@ -57,11 +57,15 @@ gameInput.keydown(function(keydownEvent) {
     heading = 180
     goForward(50)
   }  
-  if (keydownEvent.keyCode == 87) {      
-    console.log("up")
+  if (keydownEvent.keyCode == 65) {
+    heading = 270
+    console.log("left")
+    goForward(50)
   }  
-  if (keydownEvent.keyCode == 87) {      
-    console.log("up")
+  if (keydownEvent.keyCode == 68) {      
+    console.log("right")
+    heading = 90
+    goForward(50)
   }  
   if (keydownEvent.keyCode == 87) {      
     console.log("up")
