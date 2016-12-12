@@ -40,6 +40,8 @@
 //gameInput.keydown(function(keydownEvent) {
 //  // the key code for enter is 13
 
+var gameInput = $(document)
+
 
 
 
@@ -52,6 +54,7 @@ gameInput.keydown(function(keydownEvent) {
   }  
   if (keydownEvent.keyCode == 83) {      
     console.log("down")
+    faceback();
     goForward(50)
   }  
   if (keydownEvent.keyCode == 87) {      
