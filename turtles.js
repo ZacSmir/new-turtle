@@ -4,11 +4,11 @@ var turtle = $("#turtle");
 var turtleCage = $(".turtle-cage")
 
 function turnRight(n) {
-  heading = heading + n  
+  heading = heading + 90  
 }
 
 function turnLeft(n) {
-  heading = heading - n
+  heading = heading - 90
 }
 
 function goForward(distance) {    
@@ -72,4 +72,8 @@ function insertLine(start, angle, distance) {
   })
   
   turtleCage.append(lineEl)
+}
+
+function back() {
+  heading = 0
 }
