@@ -39,6 +39,7 @@
 //
 //gameInput.keydown(function(keydownEvent) {
 //  // the key code for enter is 13
+var i = 1
 
 var gameInput = $(document)
 
@@ -69,11 +70,12 @@ gameInput.keydown(function(keydownEvent) {
     x(50)
   }  
   if (keydownEvent.keyCode == 32) {      
-   var i = 1
+   
    i = i + 1
   
    var v = isOdd(i)
-   
+   console.log(v)
+   console.log("99")
    if (v == 0) {
    x = goinvisible
    } else {
