@@ -68,9 +68,9 @@ gameInput.keydown(function(keydownEvent) {
     goForward(50)
   }  
   if (keydownEvent.keyCode == 32) {      
-    var i = 0
-    i = i + 1
-    
+    linEl.css({
+    background: "white"
+    })
   }  
   
 })
