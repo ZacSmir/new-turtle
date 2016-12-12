@@ -45,8 +45,8 @@ var gameInput = $(document)
 gameInput.keydown(function(keydownEvent) {
   // the key code for enter is 13
 
-  if (keydownEvent.keyCode == 32) {      
-   console
+  if (keydownEvent.keyCode == 87) {      
+   console.log("up")
   }  
 })
 
