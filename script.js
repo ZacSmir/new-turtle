@@ -53,7 +53,7 @@ gameInput.keydown(function(keydownEvent) {
   }  
   if (keydownEvent.keyCode == 83) {      
     console.log("down")
-    back();
+    heading = 0
     goForward(50)
   }  
   if (keydownEvent.keyCode == 87) {      
