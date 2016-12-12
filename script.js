@@ -35,7 +35,7 @@
 //turnRight(90)
 //
 //cat(360, 90)
-var gameinput = $("#gameinput")
+var gameInput = $("#gameinput")
 
 gameInput.keydown(function(keydownEvent) {
   // the key code for enter is 13
@@ -44,6 +44,8 @@ gameInput.keydown(function(keydownEvent) {
    console.log("forwards")
   }  
 })
+
+
 
 
 
