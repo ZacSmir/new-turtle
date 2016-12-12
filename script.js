@@ -35,6 +35,7 @@
 //turnRight(90)
 //
 //cat(360, 90)
+var gameinput = $("#gameinput")
 
 gameInput.keydown(function(keydownEvent) {
   // the key code for enter is 13
