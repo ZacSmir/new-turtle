@@ -49,11 +49,12 @@ gameInput.keydown(function(keydownEvent) {
   // the key code for enter is 13
   if (keydownEvent.keyCode == 87) {      
    console.log("up")
+   heading = 0
    goForward(50)
   }  
   if (keydownEvent.keyCode == 83) {      
     console.log("down")
-    heading = 0
+    heading = 180
     goForward(50)
   }  
   if (keydownEvent.keyCode == 87) {      
