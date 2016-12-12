@@ -36,14 +36,13 @@
 //
 //cat(360, 90)
 
+gameInput.keydown(function(keydownEvent) {
+  // the key code for enter is 13
 
-  if (keydownEvent.keyCode == 13) {      
-    console.log("abc")
+  if (keydownEvent.keyCode == 32) {      
+   console.log("forwards")
   }  
 })
-
-
-
 
 
 
