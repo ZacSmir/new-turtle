@@ -51,7 +51,9 @@ gameInput.keydown(function(keydownEvent) {
   }  
   if (keydownEvent.keyCode == 83) {      
     console.log("down")
-    goForward(-50)
+    turnLeft(90)
+    turnLeft(9)
+    goForward(50)
   }  
   if (keydownEvent.keyCode == 87) {      
     console.log("up")
