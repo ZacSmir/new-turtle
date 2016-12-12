@@ -78,6 +78,10 @@ gameInput.keydown(function(keydownEvent) {
    x = goinvisible
    }
     
+  else {
+  x = goForward
+  }
+    
   }  
   
 })
