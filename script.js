@@ -44,6 +44,7 @@ var gameInput = $(document)
 
 var x = goForward
 
+function isOdd(num) { return num % 2;}
 
 gameInput.keydown(function(keydownEvent) {
   // the key code for enter is 13
@@ -68,7 +69,10 @@ gameInput.keydown(function(keydownEvent) {
     goForward(50)
   }  
   if (keydownEvent.keyCode == 32) {      
+   var i = 0
+   i = i + 1
   
+   var v = isOdd(i)
     
   }  
   
