@@ -69,10 +69,14 @@ gameInput.keydown(function(keydownEvent) {
     goForward(50)
   }  
   if (keydownEvent.keyCode == 32) {      
-   var i = 0
+   var i = 1
    i = i + 1
   
    var v = isOdd(i)
+   
+   if (v == 0) {
+   x = goinvisible
+   }
     
   }  
   
