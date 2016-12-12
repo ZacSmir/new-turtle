@@ -51,7 +51,7 @@ gameInput.keydown(function(keydownEvent) {
   // the key code for enter is 13
   if (keydownEvent.keyCode == 68) {      
    console.log("up")
-   heading = 0
+   heading = 360
    x(50)
   }  
   if (keydownEvent.keyCode == 65) {      
