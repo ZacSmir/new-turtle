@@ -51,7 +51,7 @@ gameInput.keydown(function(keydownEvent) {
   if (keydownEvent.keyCode == 68) {      
    console.log("up")
    heading = 0
-   goForward(50)
+   x(50)
   }  
   if (keydownEvent.keyCode == 65) {      
     console.log("down")
@@ -61,12 +61,12 @@ gameInput.keydown(function(keydownEvent) {
   if (keydownEvent.keyCode == 87) {
     heading = 270
     console.log("left")
-    goForward(50)
+    x(50)
   }  
   if (keydownEvent.keyCode == 83) {      
     console.log("right")
     heading = 90
-    goForward(50)
+    x(50)
   }  
   if (keydownEvent.keyCode == 32) {      
    var i = 1
@@ -76,9 +76,7 @@ gameInput.keydown(function(keydownEvent) {
    
    if (v == 0) {
    x = goinvisible
-   }
-    
-  else {
+   } else {
   x = goForward
   }
     
